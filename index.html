@@ -1,0 +1,648 @@
+<?php include ('/var/www/html/include/registration_checker.php'); ?>
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# washingtonian: http://ogp.me/ns/fb/washingtonian# website: http://ogp.me/ns/website#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/apple-touch-icon-57x57-precomposed.png"/>
+
+<title></title>
+
+
+
+  
+  <link type="text/css" rel="stylesheet" href="/wol.css" />
+  <link type="text/css" rel="stylesheet" href="/include/fonts/fontello4/css/fontello.css" />
+  <link type="text/css" rel="stylesheet" href="/include/fonts/fontello4/css/animation.css" />
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/include/fonts/fontello4/css/fontello-ie7.css">
+  <![endif]-->
+  
+  
+  <link type="text/css" rel="stylesheet" href="/article.css" />
+  
+  <link type="text/css" rel="stylesheet" href="/navigation.css" />
+  <link type="text/css" rel="stylesheet" href="/colorbox.css" />
+  
+  
+  
+  
+
+
+<meta name="Keywords" content="washingtonian magazine, washingtonian magazine online, washington dc guide, virginia guide, maryland guide, washington dc recreation, virginia recreation, maryland recreation, washington dc restaurants, virginia restaurants, arlington restaurants, alexandria restaurants, maryland restaurants, washington dc events, arlington events, washington dc entertainment, virginia entertainment, maryland entertainment, washington dc attractions, virginia attractions, maryland attractions, washington dc happy hours, virginia happy hours, arlington happy hours, maryland happy hours, washington dc outdoor, virginia outdoor, maryland outdoor, washington dc dining, virginia dining, arlington dining, alexandria dining, maryland dining, washington dc bars, arlington bars, virginia bars, maryland bars, washington dc nightlife, virginia nightlife, arlington nightlife, maryland nightlife, washington dc shopping, virginia shopping, maryland shopping, washington dc fashion, washington dc visitors guide, virginia visitors guide, maryland visitors guide, arlington visitors guide, washington dc travel, virginia travel, maryland travel, washington dc top doctors, virginia top doctors, maryland top doctors, washington dc best doctors, washington dc weddings, virginia weddings, maryland weddings, washington dc blogs, washington dc spa, virginia spa, maryland spa, washington dc day spas, washington dc spas, restaurant week, washington dc restaurant week, washington dc brunch, virginia brunch, maryland brunch, washington dc pets, washington dc lawyers, best lawyers, virginia lawyers, maryland lawyers, washington dc homes, virginia homes, maryland homes, washington dc real estate, virginia real estate, maryland real estate, what to do in washington dc, northern virginia, capitol hill, dupont circle, washington dc capitol, washington dc capital, national mall, washington dc theater, washington dc neighborhoods" />
+
+
+<meta name="robots" content="all" />  
+<meta name="google-site-verification" content="vvVTsFEd7-c5BCuE1p4P_yz2s99Ensy3QhC-odFrCjQ" /> 
+<meta property="fb:admins" content="100002475007199" />
+
+<link rel="shortcut icon" href="/images/wash.ico"/>
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script src="/organictabs.jquery.js"></script>
+
+
+<script src="/browser-selector.js"></script>
+<script src="/jquery.colorbox-min.js"></script>
+<script src="/sessvars.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=washaddthis"></script>
+
+
+
+
+
+    <script>
+      $(document).ready(function(){
+        $(".colorbox-img").colorbox({rel:'colorbox-img'});
+        $(".loc_youtube").colorbox({iframe:true, innerWidth:560, innerHeight:315});
+        $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:375});      
+      });
+    </script>
+
+
+
+
+
+<!-- CALENDAR SCRIPT - documentation here: http://arshaw.com/fullcalendar/ -->
+<script type='text/javascript' src='/fullcalendar.min.js'></script>
+<script type='text/javascript'>
+  function zeroFill( number, width ) {
+    width -= number.toString().length;
+    if( width > 0 ) {
+      return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+    }
+    return number;
+  }
+  $(document).ready(function() {
+    var date = new Date();
+    var d = date.getDate();
+    var m = date.getMonth();
+    var y = date.getFullYear();
+    $('#calendar').fullCalendar({
+      dayClick: function(date, start, end, jsEvent, url) {
+        top.location='/events/daily.php?date=' + zeroFill(date.getFullYear(),2) + zeroFill(date.getMonth()+1,2) + zeroFill(date.getDate(),2); 
+      },
+      editable: false
+    });
+    $('#wedding-calendar').fullCalendar({
+      dayClick: function(date, start, end, jsEvent, url) {
+        top.location='/weddings/events/daily.php?date=' + zeroFill(date.getFullYear(),2) + zeroFill(date.getMonth()+1,2) + zeroFill(date.getDate(),2); 
+      },
+      editable: false
+    });
+  });
+</script>
+
+
+
+
+
+
+<script type='text/javascript' src='//partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-7659396398034687");
+GS_googleEnableAllServices();
+</script>
+
+
+
+	
+		
+		<!-- here.googleAddInsertion --><script language="JavaScript"> 
+		// the keywords are:  
+		</script> 
+		
+	
+
+<script type='text/javascript'>
+
+GA_googleAddSlot("ca-pub-7659396398034687", "ROS_MediumRectangle_300x250");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "News_Leaderboard_728x90");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "ROS_Bottom_MediumRectangle");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "News_Tile_Right_180x90");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "News_Tile_Left_180x90");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "Sitewide_Interstitial_640x480");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "News_HalfPage_300x600");
+
+GA_googleAddSlot("ca-pub-7659396398034687", "News_CapitalComment_Mobile_Leaderboard_320x99");
+
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+<script language="javascript">
+    function clearText(field){
+        if (field.defaultValue == field.value) field.value = '';
+        else if (field.value == '') field.value = field.defaultValue;
+    }
+</script>
+
+
+    
+        
+        
+        
+        
+        
+        
+        <link rel="alternate" type="application/atom+xml" title="Washingtonian" href="http://feeds.feedburner.com/WashingtonianBlogs" />
+        <link rel="alternate" type="application/rss+xml" title="Washingtonian Blogs" href="http://www.washingtonian.com/blogs/rss.xml" />
+
+        <link rel="alternate" type="application/rss+xml" title="Washingtonian Quizzes" href="http://www.washingtonian.com/quizzes/rss.xml" />
+
+
+<script type="text/javascript" src="//www.washingtonian.com/quizzes/mt.js"></script>
+    
+
+<script type="text/javascript">
+  //<![CDATA[[
+  $SA={s:15014,asynch:1};
+  (function(){
+      var sa = document.createElement("script"); sa.type = "text/javascript"; sa.async = true;
+      sa.src = ("https:" == document.location.protocol ? "https://" + $SA.s + ".sa" : "http://" + $SA.s + ".a") + ".siteapps.com/" + $SA.s + ".js";
+      var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(sa, t);
+  })();
+  //]]>
+</script>
+<!-- Begin comScore Tag -->
+<!--script>
+/*  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "17601550" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+})();*/
+</script-->
+<!--noscript-->
+  <!-- <img src="//b.scorecardresearch.com/p?c1=2&c2=17601550&cv=2.0&cj=1" />-->
+<!--/noscript-->
+<!-- End comScore Tag -->
+</head>
+<?php include ('/var/www/html/include/top-header.html'); ?>
+  
+  
+  <!-- BEGIN LOGO HEADER -->
+  <div id="logo-header" class="clearfix">
+    <!-- BEGIN LEFT ADVERTISMENT -->
+    <div id="left-advertisment" class="left">
+       
+        
+        
+          
+  
+    
+    
+      <!-- News_CapitalComment_Tile_Left_180x90 -->
+<script type='text/javascript'>
+GA_googleFillSlot("News_CapitalComment_Tile_Left_180x90");
+</script>
+
+    
+  
+
+        
+            
+    </div>
+    <!-- END LEFT ADVERTISMENT -->
+    <!-- BEGIN HEADER LOGO -->
+    <div id="washingtonian-logo" class="left"><a href="/" target="_self"><img src="/images/wash-logo.png" alt="Washingtonian" width="348" /></a></div>
+    <!-- END HEADER LOGO -->
+    <!-- BEGIN RIGHT SIDE ADVERTISMENT -->
+    <div id="right-advertisment" class="right">
+       
+        
+        
+          
+  
+    
+    
+      <!-- News_CapitalComment_Tile_Right_180x90 -->
+<script type='text/javascript'>
+GA_googleFillSlot("News_CapitalComment_Tile_Right_180x90");
+</script>
+
+    
+  
+
+          
+      
+    </div>
+    <!-- END RIGHT SIDE ADVERTISMENT -->
+  </div>
+  <!-- END LOGO HEADER -->
+
+  
+  
+    <?php include ('/var/www/html/include/header-navigation.html'); ?>
+  
+
+  
+  <!-- BEGIN HEADER PRIMARY ADVERTISMENT -->
+  <div id="header-advertisement">
+    <div id="ad-placeholder">
+       
+        
+        
+          
+            
+            
+              <!-- News_CapitalComment_Leaderboard_728x90 -->
+<script type='text/javascript'>
+GA_googleFillSlot("News_CapitalComment_Leaderboard_728x90");
+</script>
+
+            
+          
+        
+      
+    </div>
+  </div>
+  <!-- END HEADER PRIMARY ADVERTISMENT -->
+
+
+
+
+
+
+
+    <!-- BEGIN PAGE SIDEBAR CONTAINER -->
+<div id="page-sidebar-container" class="clearfix">
+    	
+<!-- BEGIN PAGE SIDEBAR POSITION 1 -->
+        <div class="right-sidebar-item with-border">
+        	<!-- BEGIN SUBSCRIBE BLOG -->
+            <div id="blog-subscribe-box">
+            <a href="https://w1.buysub.com/pubs/WH/WSH/WSH_Convertible.jsp?cds_page_id=60116"><img src="/images/subscribe-header-blog.png" height="120" /></a>
+            </div>  
+            <!-- END SUBSCRIBE BLOG -->
+        </div>
+        <!-- END PAGE SIDEBAR POSITION 1 -->
+<!-- BEGIN MEDIUM RECTANGLE -->
+<div class="right-sidebar-item with-border">
+  <!-- BEGIN DOUBLE CLICK AD -->
+  <div id="advertisement"> <span>advertisement</span>
+<!-- News_CapitalComment_MediumRectangle_300x250 -->
+<script type='text/javascript'>
+GA_googleFillSlot("News_CapitalComment_MediumRectangle_300x250");
+</script>
+  </div>
+  <!-- END DOUBLE CLICK AD -->
+</div>
+<!-- END MEDIUM RECTANGLE -->
+
+<!-- BEGIN SIDEBAR POSITION 3 -->
+        <div class="right-sidebar-item with-border">
+        	<!-- BEGIN WASHINGTONIAN MOBILE AD -->
+            <a href="http://www.washingtonian.com/tablet/index.php?wv=s%2FWashingtonian%2F05bd042e967b4b25a5e0942b4f879a5a%2FFall_2014_WG%2FCover.html" target="_new"><img src="/images/11142014-welcomeGuide-300x150.jpg" alt="Download the Welcome Guide" /></a>
+        
+<!-- END WASHINGTONIAN MOBILE AD -->
+</div>
+        <!-- END SIDEBAR POSITION 3 -->
+<!-- LEFT SIDEBAR POSITION 4 --><div class="right-sidebar-item with-border">
+    <div id="adv_search"> <img id="finder-logo" src="/images/find-a.png" width="135" />
+      <div class="wrapper">
+        <?php include('/var/www/html/include/finder_script.php'); ?>
+      </div>
+<?php include ('/var/www/html/include/editors-lists.html'); ?>
+    </div>
+  </div>
+
+<!-- WELL+BEING -->
+ <div id="newsletter-blog-box" class="with-border">
+<form method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup2478" accept-charset="UTF-8" onsubmit="return verifyRequired2478();" >
+<input type="hidden" name="redirect" value="http://www.washingtonian.com/thank-you-for-subscribing/index.php">
+<input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
+
+<div id="SignUp">
+<img src="/images/box-newsletter-single.png" width="176" alt="Newsletters" />
+<table class="signupframe">
+<tr>
+<td colspan="2"><p>Get <strong>Well+Being</strong> delivered to your inbox every Monday Morning.</p></td>
+</tr>
+	<tr>
+      <td>
+        <input type="text" name="fields_email" class="text" value="enter your email address" onblur="clearText(this);" onfocus="clearText(this);">
+        
+        <input type="hidden" name="listid" value="__multi">
+        <input type="hidden" name="lists" value="9873074:9875605">
+        <input type="hidden" name="specialid:9873074" value="96LH">
+        <input type="hidden" value="1" id="listid:9873074" name="listid:9873074">
+        <input type="hidden" name="specialid:9875605" value="G77M">
+        <input type="hidden" id="listid:9875605" name="listid:9875605" value="1">
+
+    <input type="hidden" name="clientid" value="398209">
+    <input type="hidden" name="formid" value="2478">
+    <input type="hidden" name="reallistid" value="1">
+    <input type="hidden" name="doubleopt" value="0">
+     </td>
+    
+    <td><input type="submit" name="Submit" id="submit" value="Submit"></td>
+    </tr>
+    </table>
+</div>
+</form>
+</div> <!-- #newsletter-blog-box -->
+
+
+<script type="text/javascript">
+
+var icpForm2478 = document.getElementById('icpsignup2478');
+
+if (document.location.protocol === "https:")
+
+	icpForm2478.action = "https://app.icontact.com/icp/signup.php";
+function verifyRequired2478() {
+  if (icpForm2478["fields_email"].value == "") {
+    icpForm2478["fields_email"].focus();
+    alert("The Email field is required.");
+    return false;
+  }
+
+
+return true;
+}
+</script>
+ <!-- END WELL+BEING --><!-- SIDEBAR POSITION 7 -->
+<div id="article-twitter-widget" class="with-border">
+<div id="twitter-widget-wash"> <img src="/images/twitter-logo.png" width="281" />
+<a class="twitter-timeline" href="https://twitter.com/washingtonian" data-widget-id="359693588269002752">Tweets by @washingtonian</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!-- end #article-twitter-widget -->
+<!-- END SIDEBAR POSITION 7 -->       
+        
+    </div>
+    <!-- END PAGE SIDEBAR CONTAINER -->
+
+
+    <!-- BEGIN PAGE CONTENT CONTAINER -->
+    <div id="page-content-container" style="background:none;" class="right clearfix article-display-case">
+	
+   	<!-- BEGIN CENTER CONTENT -->
+    <div id="page-main-content-container"> 
+        
+        <!-- BEGIN SECTION TITLE IMAGE -->
+        <div id="section-title-image" class="with-border">
+			
+        <div id="section-description">
+				
+        </div>
+        </div>
+        <!-- END SECTION TITLE IMAGE -->
+ 
+        <!-- BEGIN SECTION TOP ARTICLES -->
+        <div id="section-article"> 
+	
+			<!-- BEGIN SECTION TOP ARTICLES POSITION 1 -->
+            <div id="section-article-position">
+            <div id="section-article-content">             
+
+				
+				    <!-- BEGIN BLOG ENTRY SUMMARY -->
+        <div id="section-article">
+
+
+            <div id="section-article-position">
+                <div id="title"><a href="http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php">Quiz: How Many of These Charming Small Towns Near DC Have You Been To?</a></div>
+                <div id="deck"></div>
+	
+<img src="//www.washingtonian.com/quizzes/assets_c/2015/08/20150819.greatsmalltowns_quiz-lede-1215-thumb-620xauto-97885.jpg" class="mt-image-center" />
+        
+        
+        <span class="mt-image-center">Catoctin Creek Distilling Company in Purcellville, Virginia. Photograph by DJ Glisson II/<a href="http://fireflyimageworks.com">Firefly Imageworks</a>.</span>
+
+      
+
+    
+  
+
+
+
+            <div class="addthis_custom_sharing" style="margin-bottom:20px;"></div>
+
+				<p><style type="text/css"><!--
+li {text-transform: none !important;}
+input {background-color: #00A0E9  !important; font-family: source_sans_problack !important;}
+#results h2 {color: #00A0E9  !important;}
+--></style></p>
+				
+            </div>
+            <div id="article-information">Posted at 06:00 AM/ET, 08/21/2015 | <a href="http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php">Permalink</a> | <a href="http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php#comments">Comments (<script type='text/javascript' src='//disqus.com/forums/washingtonian/get_num_replies_for_entry.js?url=http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php'></script><noscript>View</noscript>)</a></div>
+        </div>
+<!-- END BLOG ENTRY SUMMARY -->
+				
+				
+				    <!-- BEGIN BLOG ENTRY SUMMARY -->
+        <div id="section-article">
+
+
+            <div id="section-article-position">
+                <div id="title"><a href="http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php">Quiz: How Many of the 100 Very Best Restaurants in Washington Have You Eaten At?</a></div>
+                <div id="deck"> <span id="details">By <a href="/authorprofiles/washingtonian-staff.php">Washingtonian Staff</a></span></div>
+	
+<img src="//www.washingtonian.com/quizzes/assets_c/2015/08/2015.08.11.VBR-quiz-ledeimg-FINAL-1215-1-thumb-620xauto-97329.jpg" class="mt-image-center" />
+        
+        
+        
+
+      
+
+    
+  
+
+
+
+            <div class="addthis_custom_sharing" style="margin-bottom:20px;"></div>
+
+				<p><style type="text/css"><!--
+li {text-transform: none !important;}
+input {background-color: #00A0E9  !important; font-family: source_sans_problack !important;}
+#results h2 {color: #00A0E9  !important;}
+--></style></p>
+				
+            </div>
+            <div id="article-information">Posted at 10:38 AM/ET, 08/14/2015 | <a href="http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php">Permalink</a> | <a href="http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php#comments">Comments (<script type='text/javascript' src='//disqus.com/forums/washingtonian/get_num_replies_for_entry.js?url=http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php'></script><noscript>View</noscript>)</a></div>
+        </div>
+<!-- END BLOG ENTRY SUMMARY -->
+				
+				
+				    <!-- BEGIN BLOG ENTRY SUMMARY -->
+        <div id="section-article">
+
+
+            <div id="section-article-position">
+                <div id="title"><a href="http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php">How Many of DC's State Streets Have You Visited?</a></div>
+                <div id="deck"> <span id="details">By <a href="/authorprofiles/andrew-beaujon.php">Andrew Beaujon</a></span></div>
+	
+<img src="//www.washingtonian.com/quizzes/assets_c/2015/07/20150707.50statesstreetquiz-1215-thumb-620xauto-94804.jpg" class="mt-image-center" />
+        
+        
+        <span class="mt-image-center">Photograph by Flickr user <a href="https://www.flickr.com/photos/wallyg/">Wally Gobetz</a>.</span>
+
+      
+
+    
+  
+
+
+
+            <div class="addthis_custom_sharing" style="margin-bottom:20px;"></div>
+
+				<p><style type="text/css"><!--
+li {text-transform: none !important;}
+input {background-color: #00A0E9 !important; font-family: source_sans_problack !important;}
+#results h2 {color: #00A0E9 !important;}
+--></style>
+<p>You can visit all 50 states, plus Puerto Rico, without leaving the District of Columbia. And while even most tourists know how to get to Pennsylvania Avenue, it takes a real map nerd, or possibly a taxi driver, to instantly call up the locations of, say, Montana Avenue, Northeast, or North Dakota Avenue, Northwest.</p>
+<p>See how you stack up in this compact tour of America's splendors.</p></p>
+				
+            </div>
+            <div id="article-information">Posted at 09:30 AM/ET, 07/08/2015 | <a href="http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php">Permalink</a> | <a href="http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php#comments">Comments (<script type='text/javascript' src='//disqus.com/forums/washingtonian/get_num_replies_for_entry.js?url=http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php'></script><noscript>View</noscript>)</a></div>
+        </div>
+<!-- END BLOG ENTRY SUMMARY -->
+				
+				
+				    <!-- BEGIN BLOG ENTRY SUMMARY -->
+        <div id="section-article">
+
+
+            <div id="section-article-position">
+                <div id="title"><a href="http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php">Quiz: Are you an adventurous eater?</a></div>
+                <div id="deck">Korean-barbecue small intestines? Lamb brain masala? How many of these dishes from our Cheap Eats restaurants have you been brave enough to try? <span id="details">By <a href="/authorprofiles/ann-limpert.php">Ann Limpert</a></span></div>
+	
+<img src="//www.washingtonian.com/quizzes/assets_c/2015/06/adv_eater_snails-thumb-620xauto-93886.jpg" class="mt-image-center" />
+        
+        
+        <span class="mt-image-center">Snails in coconut cream from <a href="http://www.washingtonian.com/articles/cheap-eats/rice-paper/index.php">Rice Paper</a>. Photograph by Scott Suchman.</span>
+
+      
+
+    
+  
+
+
+
+            <div class="addthis_custom_sharing" style="margin-bottom:20px;"></div>
+
+				<p><style type="text/css"><!--
+li {text-transform: none !important;}
+input {background-color: #00A0E9 !important; font-family: source_sans_problack !important;}
+#results h2 {color: #00A0E9 !important;}
+--></style></p>
+				
+            </div>
+            <div id="article-information">Posted at 11:45 AM/ET, 06/26/2015 | <a href="http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php">Permalink</a> | <a href="http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php#comments">Comments (<script type='text/javascript' src='//disqus.com/forums/washingtonian/get_num_replies_for_entry.js?url=http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php'></script><noscript>View</noscript>)</a></div>
+        </div>
+<!-- END BLOG ENTRY SUMMARY -->
+				
+				
+				    <!-- BEGIN BLOG ENTRY SUMMARY -->
+        <div id="section-article">
+
+
+            <div id="section-article-position">
+                <div id="title"><a href="http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php">Quiz: How many of the best cheap restaurants in Washington, DC have you eaten at?</a></div>
+                <div id="deck"> <span id="details">By <a href="/authorprofiles/washingtonian-staff.php">Washingtonian Staff</a></span></div>
+	
+<img src="//www.washingtonian.com/quizzes/assets_c/2015/06/cheapeats_quiz_image-3-thumb-620xauto-93725.jpg" class="mt-image-center" />
+        
+        
+        <span class="mt-image-center">Photograph of DCity Smokehouse stacked sandwiches by Scott Suchman. Food styling by Lisa Cherkasky.</span>
+
+      
+
+    
+  
+
+
+
+            <div class="addthis_custom_sharing" style="margin-bottom:20px;"></div>
+
+				<p></p>
+				
+				            <p style="float:right;"><a href="http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php#more" rel="bookmark">Read More</a></p>
+				
+            </div>
+            <div id="article-information">Posted at 03:37 PM/ET, 06/19/2015 | <a href="http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php">Permalink</a> | <a href="http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php#comments">Comments (<script type='text/javascript' src='//disqus.com/forums/washingtonian/get_num_replies_for_entry.js?url=http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php'></script><noscript>View</noscript>)</a></div>
+        </div>
+<!-- END BLOG ENTRY SUMMARY -->
+				
+				    <div id="blog-prev-next" class="clearfix">
+
+
+
+</div> <!-- #blog-prev-next -->	
+
+				
+				
+
+		
+            </div> <!-- #section-article-content -->
+            </div>
+            <!-- END SECTION TOP ARTICLES POSITION 1 -->
+
+        </div>
+        <!-- END SECTION TOP ARTICLES -->
+
+    </div>
+    <!-- END PAGE CONTENT CONTAINER -->
+
+   </div>
+   <!-- END CENTER CONTENT -->
+
+
+<div style="clear:both;"></div>
+
+  <!-- BEGIN FOOTER WIDE ADVERTISMENT -->
+  <div id="footer-advertisement">
+    <div id="ad-placement-footer">
+   
+    
+    
+      <!-- ROS_Bottom_Leaderboard -->
+<script type='text/javascript'>
+GA_googleFillSlot("ROS_Bottom_Leaderboard");
+</script>
+
+    
+  
+    </div>
+  </div>
+  <!-- END FOOTER WIDE ADVERTISMENT -->
+  </div>
+
+
+  
+
+
+  <!-- #main-content-area -->
+  <div style="clear:both; width:100%;"></div>
+
+  
+  
+  <?php include ('/var/www/html/include/footer-links.html'); ?>
+  <?php include ('/var/www/html/include/footer-html.html'); ?>
+  
+
+
+

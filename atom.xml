@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+   <channel>
+      <title>Washingtonian Quizzes</title>
+      <atom:link href="http://www.washingtonian.com/quizzes/rss.xml" rel="self" type="application/rss+xml" />
+      <link>http://www.washingtonian.com/quizzes/</link>
+      <description></description>
+      <pubDate>Fri, 21 Aug 2015 06:00:00 -0400</pubDate>
+      <generator>http://www.sixapart.com/movabletype/</generator>
+      <language>en-us</language>
+      <sy:updatePeriod>hourly</sy:updatePeriod>
+      <sy:updateFrequency>1</sy:updateFrequency>
+
+      
+      <item>
+         <title>Quiz: How Many of These Charming Small Towns Near DC Have You Been To?</title>
+         <link>http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php</link>
+         <comments>http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php#comments</comments>
+         <pubDate>Fri, 21 Aug 2015 06:00:00 -0400</pubDate>
+         <dc:creator>Ryan Weisser</dc:creator>
+         
+         <guid>http://www.washingtonian.com/quizzes/2015/08/quiz-how-many-of-these-charming-small-towns-near-washington-dc-have-you-been-to.php</guid>
+         <description></description>
+      </item>
+      
+      <item>
+         <title>Quiz: How Many of the 100 Very Best Restaurants in Washington Have You Eaten At?</title>
+         <link>http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php</link>
+         <comments>http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php#comments</comments>
+         <pubDate>Fri, 14 Aug 2015 10:38:44 -0400</pubDate>
+         <dc:creator>Angela Hilsman</dc:creator>
+         
+         <guid>http://www.washingtonian.com/quizzes/2015/08/how-many-of-the-100-very-best-restaurants-in-washington-dc-have-you-eaten-at.php</guid>
+         <description></description>
+      </item>
+      
+      <item>
+         <title>How Many of DC&apos;s State Streets Have You Visited?</title>
+         <link>http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php</link>
+         <comments>http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php#comments</comments>
+         <pubDate>Wed, 08 Jul 2015 09:30:32 -0400</pubDate>
+         <dc:creator>Ryan Weisser</dc:creator>
+         
+         <guid>http://www.washingtonian.com/quizzes/2015/07/how-many-of-dcs-state-streets-have-you-visited.php</guid>
+         <description> You can visit all 50 states, plus Puerto Rico, without leaving the District of Columbia. And while even most tourists know how to get to Pennsylvania Avenue, it takes a real map nerd, or possibly a taxi driver, to instantly call up the locations of, say, Montana Avenue, Northeast,</description>
+      </item>
+      
+      <item>
+         <title>Quiz: Are you an adventurous eater?</title>
+         <link>http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php</link>
+         <comments>http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php#comments</comments>
+         <pubDate>Fri, 26 Jun 2015 11:45:00 -0400</pubDate>
+         <dc:creator>Ryan Weisser</dc:creator>
+         
+         <guid>http://www.washingtonian.com/quizzes/2015/06/how-many-adventurous-dishes-from-our-cheap-eats-restaurants-are-you-brave-enough-to-try.php</guid>
+         <description></description>
+      </item>
+      
+      <item>
+         <title>Quiz: How many of the best cheap restaurants in Washington, DC have you eaten at?</title>
+         <link>http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php</link>
+         <comments>http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php#comments</comments>
+         <pubDate>Fri, 19 Jun 2015 15:37:40 -0400</pubDate>
+         <dc:creator>Ryan Weisser</dc:creator>
+         
+         <guid>http://www.washingtonian.com/quizzes/2015/06/how-many-of-washington-dcs-best-cheap-restaurants-have-you-tried.php</guid>
+         <description></description>
+      </item>
+      
+   </channel>
+</rss>
